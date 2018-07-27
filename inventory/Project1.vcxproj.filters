@@ -7,47 +7,38 @@
     </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Parts">
+      <UniqueIdentifier>{3c7ef125-020d-4cf3-af02-b36b4800260d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Part.h">
+    <ClInclude Include="..\inventory\Measurement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Measure_val.h">
+    <ClInclude Include="..\inventory\Part.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Resistors.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Pot.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Capacitor.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\inventory\Resistor.h">
+      <Filter>Parts</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Measure_val.cpp">
+    <ClCompile Include="..\inventory\Resistor.cpp">
+      <Filter>Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inventory\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Part.cpp">
+    <ClCompile Include="..\inventory\Measurement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Resistors.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Pot.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Capacitor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="..\inventory\Part.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
