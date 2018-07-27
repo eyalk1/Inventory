@@ -6,19 +6,19 @@
 
 #define NOT_POLAR	0
 #define POLAR		1
-
 #define TWO_LEGS	2
 #define THREE_LEGS	3
 #define FOUR_LEGS	4
 
-typedef enum
+
+enum class part_type
 {
 	resistor,
 	capacitor,
 	transistor,
 	ic,
 
-}part_type;
+};
 
 class Part
 {
