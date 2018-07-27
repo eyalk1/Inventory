@@ -125,6 +125,11 @@
     <ClCompile Include="..\inventory\Part.cpp" />
     <ClCompile Include="..\inventory\Resistor.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Math\Math.vcxproj">
+      <Project>{1d1798cd-02f8-4579-bc90-12d11c3ae4de}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
