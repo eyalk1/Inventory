@@ -7,8 +7,8 @@ enum class Unit {
 
 class Measurement {
  public:
-  Measurement();
-  ~Measurement();
+  Measurement(Unit unit, double value);
+  ~Measurement() = default;
 
  private:
   Unit m_unit;
