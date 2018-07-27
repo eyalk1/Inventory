@@ -9,3 +9,7 @@ more often thשn not building a project that invovles electronics derails pretty
 - Importing an old inventory.
 - Inventory templates.
 - Easy-to-use visual interface.
+- 
+## How to contribute
+- We write our code in c++14 so every addition (even those which compile) that is later than that will no be added.
+- We also use clang-format in the google standard.
