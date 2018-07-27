@@ -142,19 +142,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Capacitor.h" />
-    <ClInclude Include="Measure_val.h" />
-    <ClInclude Include="Part.h" />
-    <ClInclude Include="Pot.h" />
-    <ClInclude Include="Resistors.h" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Measurement.cpp" />
+    <ClCompile Include="Part.cpp" />
+    <ClCompile Include="Resistor.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Capacitor.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Measure_val.cpp" />
-    <ClCompile Include="Part.cpp" />
-    <ClCompile Include="Pot.cpp" />
-    <ClCompile Include="Resistors.cpp" />
+    <ClInclude Include="Measurement.h" />
+    <ClInclude Include="Part.h" />
+    <ClInclude Include="Resistor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

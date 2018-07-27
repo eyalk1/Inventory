@@ -8,9 +8,8 @@ enum class PartType{
 
 class Part {
  public:
-  Part(std::wstring name, PartType type);
+  Part(PartType type);
   virtual ~Part() = default;
 private:
-	std::wstring m_name;
 	PartType m_type;
 };
