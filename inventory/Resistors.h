@@ -1,8 +1,6 @@
 #pragma once
 #include"Part.h"
 
-
-
 class Resistor : public Part
 {
 public:
