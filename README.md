@@ -1,6 +1,6 @@
 # Inventory
 Inventory is a tool for electronics hobbyists for keeping track of all their parts.
-more often then not building a project that invovles electronics derails pretty wuikly to a search for the right components and maybe how can you make a neccesary components out of what you have now. Inventory is a small parts data-base designed just for electronic hobbyists.
+more often thשn not building a project that invovles electronics derails pretty quickly to a search for the right components and maybe how can you make a neccesary components out of what you have. Inventory is a small data-base designed just for electronic hobbyists to keep track of their inventory!
 ## features to be:
 - Adding a new component with all the right paramaters fast.
 - Keep track of all your parts.
